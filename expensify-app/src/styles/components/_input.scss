@@ -1,0 +1,70 @@
+.input-group{
+    display: flex;  
+    flex-direction: column;    
+    margin-bottom: $l-size ; 
+
+@media screen and (min-width: $desktop-breakpoint){
+        flex-direction: row;  
+             
+
+.input-group__item {
+    border: 1px solid $lighter-gray;
+    color: $light-gray;
+    font-size: $font-size-large;
+    font-weight: 300;
+    height:50px;
+    margin-right: 1.8rem;
+    padding: $m-size
+    
+    
+}
+select{
+    border: 1px solid $lighter-gray;
+    background-color: $light-gray;
+    border-radius: 0.5rem;
+    color: $gray;   
+ }
+
+ 
+.date-picker{ 
+    margin-left: 1.8rem;
+}
+.textarea{
+    height: 10rem;
+    margin-bottom: $l-size
+}
+
+       
+}
+    
+}
+
+
+.input-group__item {        
+    border: 1px solid $lighter-gray;
+    margin-right:0;
+    margin-bottom: $m-size;
+    padding: $m-size
+    
+    
+    
+    
+}
+
+.date-picker{
+    margin-left: 0;
+    
+}  
+select{
+    border: 1px solid $lighter-gray;
+    background-color: $light-gray;
+    margin-bottom: $m-size;
+    border-radius: 0.5rem;
+    color: gray;
+ }   
+
+ .textarea{
+     @extend.input-group__item;
+     height: 10rem;
+ }
+

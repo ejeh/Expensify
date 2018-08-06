@@ -1,0 +1,22 @@
+// .page-header{
+//     padding:0 $m-size;
+//     max-width: 100%;    
+// }
+.page-header__title{
+    background: $light-gray;
+    margin-bottom: $l-size;
+    padding: $l-size 0;
+    h1{
+        font-weight: 300;
+        font-size: 3rem;
+        color: gray;
+    }
+}
+.page-header__actions{
+    background-color: $blue;
+    text-decoration: none;
+    color:$white;
+    width: 10rem;
+    padding: 1.1rem;
+
+}

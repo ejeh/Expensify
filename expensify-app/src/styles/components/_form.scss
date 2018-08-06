@@ -1,0 +1,19 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    > * {
+        margin-bottom: $m-size;
+        height: 5rem;
+        padding: 0 $s-size;
+    }
+}
+.form__date-picker{
+    border: 1px solid $lighter-gray;
+
+}
+
+.form__error{
+    font-style: italic;
+    margin: 0 0 $m-size 0;
+    
+}

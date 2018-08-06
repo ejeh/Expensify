@@ -1,0 +1,9 @@
+.expense__header{
+    align-items: center;
+    background: $light-gray;
+    border: 1px solid $lighter-gray;
+    margin-bottom: $l-size;
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size $s-size;
+}
